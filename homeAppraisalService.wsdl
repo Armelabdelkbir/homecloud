@@ -72,13 +72,13 @@
     </wsdl:binding>
     <wsdl:service name="homeAppraisalService">
         <wsdl:port name="homeAppraisalServiceHttpSoap11Endpoint" binding="ns:homeAppraisalServiceSoap11Binding">
-            <soap:address location="http://10.96.22.106:8080/axis2/services/homeAppraisalService.homeAppraisalServiceHttpSoap11Endpoint/"/>
+            <soap:address location="http://172.18.0.2:8080/axis2/services/homeAppraisalService.homeAppraisalServiceHttpSoap11Endpoint/"/>
         </wsdl:port>
         <wsdl:port name="homeAppraisalServiceHttpSoap12Endpoint" binding="ns:homeAppraisalServiceSoap12Binding">
-            <soap12:address location="http://10.96.22.106:8080/axis2/services/homeAppraisalService.homeAppraisalServiceHttpSoap12Endpoint/"/>
+            <soap12:address location="http://172.18.0.2:8080/axis2/services/homeAppraisalService.homeAppraisalServiceHttpSoap12Endpoint/"/>
         </wsdl:port>
         <wsdl:port name="homeAppraisalServiceHttpEndpoint" binding="ns:homeAppraisalServiceHttpBinding">
-            <http:address location="http://10.96.22.106:8080/axis2/services/homeAppraisalService.homeAppraisalServiceHttpEndpoint/"/>
+            <http:address location="http://172.18.0.2:8080/axis2/services/homeAppraisalService.homeAppraisalServiceHttpEndpoint/"/>
         </wsdl:port>
     </wsdl:service>
 </wsdl:definitions>
