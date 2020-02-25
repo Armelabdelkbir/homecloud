@@ -71,13 +71,13 @@
     </wsdl:binding>
     <wsdl:service name="creditWorthiness">
         <wsdl:port name="creditWorthinessHttpSoap11Endpoint" binding="ns:creditWorthinessSoap11Binding">
-            <soap:address location="http://192.168.39.96:30080/axis2/services/creditWorthiness.creditWorthinessHttpSoap11Endpoint/"/>
+            <soap:address location="http://172.18.0.3:8080/axis2/services/creditWorthiness.creditWorthinessHttpSoap11Endpoint/"/>
         </wsdl:port>
         <wsdl:port name="creditWorthinessHttpSoap12Endpoint" binding="ns:creditWorthinessSoap12Binding">
-            <soap12:address location="http://192.168.39.96:30080/axis2/services/creditWorthiness.creditWorthinessHttpSoap12Endpoint/"/>
+            <soap12:address location="http://172.18.0.3:8080/axis2/services/creditWorthiness.creditWorthinessHttpSoap12Endpoint/"/>
         </wsdl:port>
         <wsdl:port name="creditWorthinessHttpEndpoint" binding="ns:creditWorthinessHttpBinding">
-            <http:address location="http://192.168.39.96:30080/axis2/services/creditWorthiness.creditWorthinessHttpEndpoint/"/>
+            <http:address location="http://172.18.0.3:8080/axis2/services/creditWorthiness.creditWorthinessHttpEndpoint/"/>
         </wsdl:port>
     </wsdl:service>
 </wsdl:definitions>
